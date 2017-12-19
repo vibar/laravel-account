@@ -1,5 +1,5 @@
 # laravel-account
-Laravel users activation.
+Laravel 5.5 users activation.
 
 
 ## Install
