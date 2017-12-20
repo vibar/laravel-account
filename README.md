@@ -73,3 +73,13 @@ Include activation status template on `resources/views/auth/login.blade.php`
 Update `APP_URL`. This URL will be used for the activation link sent by email.
 
 Use [Mailtrap](https://mailtrap.io/) to see the emails sent. Update `MAIL_USERNAME` and `MAIL_PASSWORD`
+
+## Screenshots
+
+![Sign up](https://i.imgur.com/E8VqEHx.png "Sign up")
+
+![Login not available until activation](https://i.imgur.com/l3en5Ll.png "Login not available until activation")
+
+![Email with activation link](https://i.imgur.com/mYjRRqT.png "Email with activation link")
+
+![Account activated](https://i.imgur.com/rn9YjCG.png "Account activated")
