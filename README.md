@@ -1,9 +1,9 @@
-# laravel-account
-Laravel 5.5 users activation.
+# Laravel Users Activation
 
+- Laravel 5.5 account verification (via e-mail confirmation) for new registers.
+- Messages are available in english and portuguese (BR). See `resources/lang/vendor/account`
 
 ## Install
-
 
 ```
 composer require vibar/laravel-account
@@ -68,4 +68,8 @@ Include activation status template on `resources/views/auth/login.blade.php`
 ```
 @include('vendor.account.activation._status')
 ```
+## Update `.env`
 
+Update `APP_URL`. This URL will be used for the activation link sent by email.
+
+Use [Mailtrap](https://mailtrap.io/) to see the emails sent. Update `MAIL_USERNAME` and `MAIL_PASSWORD`
