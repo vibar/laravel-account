@@ -80,6 +80,6 @@ Use [Mailtrap](https://mailtrap.io/) to see the emails sent. Update `MAIL_USERNA
 
 ![Login not available until activation](https://i.imgur.com/l3en5Ll.png "Login not available until activation")
 
-![Email with activation link](https://i.imgur.com/mYjRRqT.png "Email with activation link")
+![Email with activation link](https://i.imgur.com/9m6gCIy.png "Email with activation link")
 
 ![Account activated](https://i.imgur.com/rn9YjCG.png "Account activated")
