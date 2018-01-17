@@ -4,6 +4,7 @@ namespace Vibar\Account\Traits;
 
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
 
 trait ActiveLogin {
 
@@ -28,5 +29,16 @@ trait ActiveLogin {
 
             return $this->redirect(trans('account::activation.required'), false, $token);
         }
+
+        $session = $user->account->session_id;
+
+        if ($session) {
+            Session::getHandler()->destroy($session);
+        }
+
+        $user->account->session_id = session()->getId();
+        $user->account->save();
+
+        return redirect()->intended($this->redirectPath());
     }
 }

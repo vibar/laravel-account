@@ -20,6 +20,7 @@ class CreateAccountsTable extends Migration
             $table->string('token')->unique();
             $table->string('public_token')->unique();
             $table->timestamp('activated_at')->nullable();
+            $table->string('session_id')->nullable();
             $table->timestamps();
         });
     }
