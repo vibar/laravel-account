@@ -1,4 +1,4 @@
-# Laravel Users Activation
+# Laravel User Activation
 
 - Laravel 5.5 account verification (via e-mail confirmation) for new registers.
 - Messages are available in english and portuguese (BR). See `resources/lang/vendor/account`
